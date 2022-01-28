@@ -1,0 +1,65 @@
+img[alt="homeImg1"]
+{
+    width: 100%;
+    height: 100%;
+}
+
+#lgndiv
+{
+    border: 2px dashed;
+    border-color: brown;
+    width: 450px;
+    height: 600px;
+    position: fixed;
+    left: 35%;
+    top: 20%;
+    background-color: white;
+   }
+
+   img[alt="logo"]
+{
+    width: 200px;
+    height: 100px;
+    position: relative;
+    left: 140px;
+    top: 0px;
+    
+}
+#logodiv
+{
+    position: relative;
+    top: 20px;
+}
+#tblDiv
+{
+    position: relative;
+    top: 100px;
+    left: 55px;
+    padding: 10px;
+}
+#btnLogin
+{
+    
+}
+#tblStyle
+{
+    /* table-layout: fixed;
+  width: 180px;
+  column-width: 100px; */
+  border-collapse: separate;
+  border-spacing: 0 1em;
+}
+.txtbox
+{
+    width: 320px;
+    height: 28px;
+    
+}
+#btnLogin
+{
+    width: 320px;
+    height: 33px;
+    border-color: brown;
+    border-radius: 10px ;
+    background-color: rgb(76, 205, 209);
+   }
