@@ -11,6 +11,7 @@ import { WOrderComponent } from './worder/worder.component';
 import { ROrderComponent } from './rorder/rorder.component';
 import { MOrderComponent } from './morder/morder.component';
 import { ErrorMsgComponent } from './error-msg/error-msg.component';
+import { GridComponent } from './grid/grid.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ErrorMsgComponent } from './error-msg/error-msg.component';
     WOrderComponent,
     ROrderComponent,
     MOrderComponent,
-    ErrorMsgComponent
+    ErrorMsgComponent,
+    GridComponent
   ],
   imports: [
     BrowserModule,
